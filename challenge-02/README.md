@@ -4,7 +4,9 @@ Nesse exercício, você está livre para escolher os nomes para suas variáveis 
 
 ```js
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
-function soma(x, y) {return x + y};
+function soma(x, y) {
+    return x + y
+};
 
 // Declare uma variável que receba a invocação da função criada acima, passando dois números quaisquer por argumento, e somando `5` ao resultado retornado da função.
 var calculo = soma(4, 6) + 5;
@@ -20,15 +22,18 @@ Crie uma função que adicione um valor à variável criada acima, e retorne a s
     O valor da variável agora é VALOR.
 Onde VALOR é o novo valor da variável.
 */
-function sum(x){
-    return "O valor da variável agora é VALOR";
+function sum(){
+    x = 25;
+    return "O valor da variável agora é " + x;
 }
 
 // Invoque a função criada acima.
-sum(x);
+sum();
 
 // Qual o retorno da função? (Use comentários de bloco).
-'O valor da variável agora é VALOR'
+/* 
+   'O valor da variável agora é 25' 
+*/
 
 /*
 Crie uma função com as seguintes características:
@@ -77,7 +82,7 @@ function argument(x, y, z) {
     }else if (x === undefined && y === undefined && z === undefined) {
         return false;
     }else {
-        null;
+       return null;
     }
 }
 
